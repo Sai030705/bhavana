@@ -1,0 +1,32 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Happy Birthday Bhavana</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="hearts"></div>
+<section id="login" class="page active">
+<div class="glass">
+<h1>🎂 Birthday Surprise</h1>
+<p>Something special is waiting for you ❤️</p>
+<input id="user" placeholder="Username">
+<input id="pass" type="password" placeholder="Password">
+<button onclick="login()">Unlock Surprise 💖</button>
+<p id="error"></p></div></section>
+
+<section id="loading" class="page"><div class="glass"><div class="loader"></div><h2>Preparing your surprise...</h2></div></section>
+
+<section id="gift" class="page"><div class="glass"><div class="gift" onclick="openGift()">🎁</div><p>Click the gift</p></div></section>
+
+<section id="surprise" class="page">
+<button id="musicBtn" onclick="toggleMusic()">🔊</button>
+<h1>Happy 22 <span>__bhavnah__❤️‍🩹</span></h1>
+<img class="hero" src="images/photo5.jpeg">
+<div id="letter"></div>
+<h2>A Few Favorites of My Forever Favorite Girl 📸💖</h2>
+<div class="gallery">
+<img src="images/photo1.jpeg"><img src="images/photo2.jpeg"><img src="images/photo3.jpeg">
+<img src="images/photo.jpeg"><img src="images/photo4.jpeg">
+</div>
+<div class="cake">🎂</div>
+<audio id="music" src="music/birthday.mp3" loop></audio>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script></body></html>
